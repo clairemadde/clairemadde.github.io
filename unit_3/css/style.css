@@ -1,0 +1,42 @@
+body {
+	background: url(images/hp_hero_image.jpg);
+	background-color: #FFFFE8;
+	font-family: 'Courier New', monospace;
+	}
+
+.top {
+	text-align: center;
+}
+
+h1 {
+	color: rgba(232,12,68,0.5);
+	font-size: 56px;
+	font-weight: 600;
+	margin: 5px 10px 0;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 30px;
+	color: rgba(232,12,68,0.4);
+	margin: 5px 10px 0;
+}
+.intro {
+	font-size: 20px;
+	color: black;
+}
+p {
+	color: black;
+	margin: 20px 40px 20px 40px;
+}
+.bottom {
+	text-align: center;
+}
+hr {
+	width: 250px;
+}
+a {
+	color: rgba(232,12,68,0.5);
+	text-decoration: none;
+}
+
