@@ -7,9 +7,14 @@ body {
 }
 
 nav {
-	background-color: #E8C66A;
+	background-color: white;
     border: 1px black solid;
     padding: 20px;
+    width: 50%;
+}
+
+nav a:hover {
+	border-bottom: 1px solid purple;
 }
   
 
@@ -69,7 +74,7 @@ p {
 	height: 0;
 }
 
-#two_column {
+#three_column {
 	background-color: #FFB7CF;
 	border: 1px black solid;
 	padding: 20px;
@@ -78,18 +83,26 @@ p {
 #left {
 	background-color: violet;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 15px;
 	float: left;
-	width: 30%;
+	width: 28%;
 }
 
-#right { 
+#middle { 
     background-color: pink; 
     border: 1px black solid;
-    padding: 20px;
-    float: right;
-    width: 62%;
+    padding: 15px;
+    float: left;
+    width: 28%;
    }
+
+#right {
+	background-color: yellow; 
+    border: 1px black solid;
+    padding: 15px;
+    float: right;
+    width: 28%;
+}
 
 section {
     background-color: #FFE2B8;
