@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+	background-color: #FFFFE8;
+	font-size: 16px; /*+1em = 16px*/
+	font-family: 'Courier New', monospace;
+}
+
+nav {
+	    padding: 1%;
+    width: 98%;
+    float: left;
+    text-align: right;
+}
+
+nav a:hover {
+	color:red;
+}
+  
+
+header {
+	background-color: #ffffe8;
+    border: .07% black solid; 
+    padding: 1.25%;
+}
+
+
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	color: rgba(232,12,68,0.5);
+	font-size: 3.5em;
+	font-weight: 600;
+	line-height: 0.3em;
+}
+
+#slogan {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-style: italic;
+	font-size: 1.8em;
+	line-height: 0.3em;
+	color: rgba(232,12,68,0.4);
+}
+
+.intro {
+	font-size: 1.4em;
+	color: black;
+	line-height: 0.3em;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	line-height: 1.5em;
+}
+
+
+p {
+	font-size: 1em;
+	line-height: 2em;
+	color: black;
+	margin: 2em auto;
+}
+
+.wrapper {
+	margin: .62% 8.75%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#three_column {
+	border: .07% black solid;
+	padding: 1.25%;
+}
+#three_column article {
+	float:left;
+	width:31%;
+	padding:0 1%;
+}
+.top img {    width: 100%;}
+/*
+#left {
+	background-color: violet;
+	border: .07% black solid;
+	padding: .9%;
+	float: left;
+	width: 28%;
+}
+
+#middle { 
+    background-color: pink; 
+    border: .07% black solid;
+    padding: .9%;
+    float: left;
+    width: 28%;
+   }
+
+#right {
+	background-color: yellow; 
+    border: .07% black solid;
+    padding: .9%;
+    float: right;
+    width: 28%;
+}
+*/
+section {
+    background-color: #FFE2B8;
+    border: .07% black solid;
+    padding: 1.25%;
+    
+}
+
+
+
+
+
+
+hr {
+	width: 10em;
+	border: .07% solid rgba(232,12,68,0.5);
+	margin: 3em auto;
+}
+
+footer {
+	background-color: #FF957E
+    border: .07% black solid;
+    padding: 20px;
+    text-align:center;
+}
+
+
+a {
+	color: rgba(232,12,68,0.5);
+	text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+
+	.top img {
+		width: 100%;
+	}
+
+	#left img {
+			float: none;
+	}
+}
+
+
+
+/* excluding the phones */
+@media only screen and (min-width: 767px) {
+
+}
+
+/* only the phones */
+@media only screen and (max-width: 767px) {
+	
+	* {font-size:12px;}
+	#three_column article {		width:100%;	}
+	.wrapper {margin:0;text-align: center;}
+	.intro {   line-height: 1.3em;}
+
+}
+
+
+/* only ipad */
+@media only screen and (min-width: 767px) and (max-width: 1024px){
+	.intro {   line-height: 1.3em;}
+	.wrapper {margin:0;}
+
+}
